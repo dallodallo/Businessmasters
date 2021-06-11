@@ -39,7 +39,7 @@ def prediction():
             result = "European Food"
         else:
             print("Sea Food")
-    return render_template("Type.html", pred = "They will most likely order : {}".format(result)) #return prediction, which is the result result.
+    return render_template("type.html", pred = "They will most likely order : {}".format(result)) #return prediction, which is the result result.
     
 
 if __name__ == "__main__": # Run this file as the main file...
